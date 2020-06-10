@@ -113,6 +113,9 @@ address {
   font-size: 22px;
   line-height: 1.18;
   text-decoration: none;
+
+  padding-top: 45px;
+  padding-bottom: 8px;
 }
 
 .logo-web {
@@ -169,7 +172,16 @@ address {
 }
 
 .footer-contacts {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
+
+  padding-bottom: 9px;
 }
 
 /* Main INDEX */
@@ -246,12 +258,16 @@ address {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  padding-bottom: 5px;
 }
 
 .portfolio {
   color: var(--title-text-color-secondary);
   font-size: 16px;
   line-height: 1.87;
+
+  padding-bottom: 20px;
 }
 
 .card:hover {
@@ -341,6 +357,9 @@ address {
   color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
+
+  padding-bottom: 20px;
 }
 
 .social-links-footer {
