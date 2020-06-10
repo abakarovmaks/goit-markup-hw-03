@@ -72,6 +72,11 @@ address {
   outline: 2px solid tomato;
 }
 
+.container.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .container.main {
   height: 600px;
 
@@ -86,10 +91,10 @@ address {
   padding-bottom: 50px;
 }
 
-.nav-links {
+/* .nav-links {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 /* Лого INDEX и PORTFOLIO*/
 .logo {
@@ -152,10 +157,10 @@ address {
   color: var(--accent-color);
 }
 
-.adress-list {
+/* .adress-list {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
 .adress-footer {
   color: var(--primary-white-color);
@@ -192,6 +197,8 @@ address {
   margin-bottom: 200px;
 
   border-radius: 4px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   line-height: 3;
 
