@@ -80,6 +80,10 @@ address {
   margin-bottom: 94px;
 }
 
+.padding-item {
+  padding-bottom: 50px;
+}
+
 .nav-links {
   padding-top: 32px;
   padding-bottom: 32px;
