@@ -1,0 +1,271 @@
+:root {
+  --title-text-color-primary: #212121;
+  --title-text-color-secondary: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-gray-color: #f5f4fa;
+  --footer-color: #2f303a;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Основные цвета на странице */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color-primary);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: var(--footer-color);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Хэдер INDEX и PORTFOLIO*/
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
+
+/* Лого INDEX и PORTFOLIO*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color-primary);
+}
+
+.logo-studio-footer {
+  color: var(--primary-white-color);
+}
+
+/* Навигация */
+
+.item {
+  color: var(--title-text-color-primary);
+  text-decoration: none;
+}
+
+.item:hover,
+.item:focus {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+/* Адресс INDEX и PORTFOLIO */
+
+.adress {
+  list-style: none;
+}
+
+.adress-header {
+  text-decoration: none;
+  color: var(--title-text-color-secondary);
+}
+
+.adress-header:hover,
+.adress-header:focus {
+  color: var(--accent-color);
+}
+
+.adress-footer {
+  color: var(--primary-white-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Main INDEX */
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Main PORTFOLIO */
+
+.filter {
+  background-color: var(--secondary-gray-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.73;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.projects-item {
+  text-decoration: none;
+}
+
+.title-projects {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio {
+  color: var(--title-text-color-secondary);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.card:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.hover-shadow {
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Преимущества INDEX */
+
+.advantage {
+  color: var(--title-text-color-primary);
+}
+
+.list {
+  list-style: none;
+}
+
+.advantage-words {
+  color: var(--title-text-color-secondary);
+}
+
+/* Наша команда INDEX */
+
+.workers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.speciality {
+  color: var(--title-text-color-secondary);
+}
+
+.social-links {
+  color: var(--title-text-color-secondary);
+}
+
+.social-links:hover,
+.social-links:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.our-team-section {
+  background-color: var(--secondary-gray-color);
+}
+
+/* Клиенты INDEX */
+
+.customers {
+  color: var(--title-text-color-secondary);
+  text-decoration: none;
+}
+
+.customers:hover,
+.customers:focus {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
+
+/* Футер INDEX и PORTFOLIO */
+
+.connect {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.social-links-footer {
+  color: var(--primary-white-color);
+}
+
+.social-links-footer:hover,
+.socila-links-footer:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
