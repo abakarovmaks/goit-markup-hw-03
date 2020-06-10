@@ -72,6 +72,14 @@ address {
   outline: 2px solid tomato;
 }
 
+.container.main {
+  height: 600px;
+}
+
+.margin-container {
+  margin-bottom: 94px;
+}
+
 .nav-links {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -160,13 +168,35 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  padding-top: 200px;
+  padding-bottom: 30px;
+
+  width: 696px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button-primary {
+  display: inline-block;
+
+  width: 200px;
+  height: 50px;
+
+  margin-bottom: 200px;
+
+  text-align: center;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
+/* .button-primary:hover,
+.button-primary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+} */
 
 /* Main PORTFOLIO */
 
@@ -213,6 +243,11 @@ address {
 
 .advantage {
   color: var(--title-text-color-primary);
+  margin-bottom: 94px;
+}
+
+.advantage-title {
+  display: none;
 }
 
 .list {
@@ -247,6 +282,7 @@ address {
 
 .our-team-section {
   background-color: var(--secondary-gray-color);
+  margin-bottom: 94px;
 }
 
 /* Клиенты INDEX */
