@@ -72,6 +72,11 @@ address {
   outline: 2px solid tomato;
 }
 
+.nav-links {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 /* Лого INDEX и PORTFOLIO*/
 .logo {
   font-family: Raleway;
@@ -131,6 +136,11 @@ address {
 .adress-header:hover,
 .adress-header:focus {
   color: var(--accent-color);
+}
+
+.adress-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .adress-footer {
