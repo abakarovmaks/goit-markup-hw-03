@@ -72,46 +72,52 @@ address {
   outline: 2px solid tomato;
 }
 
+.our-team {
+  background-color: var(--secondary-gray-color);
+}
+
 .container.header {
   margin-bottom: 93px;
 }
 
-.nav-links.main {
+.nav-links {
   display: flex;
   align-items: center;
 }
 
 .container.main {
   height: 600px;
+  margin-bottom: 94px;
 
   text-align: center;
 }
 
-.margin-container {
+.container.margin {
   margin-bottom: 94px;
+  text-align: center;
 }
 
-.padding-item {
-  padding-bottom: 50px;
+.margin-item {
+  margin-bottom: 50px;
 }
-
-/* .nav-links {
-  padding-top: 32px;
-  padding-bottom: 32px;
-} */
 
 /* Лого INDEX и PORTFOLIO*/
 .logo {
   display: block;
   margin-right: 85px;
-  /* padding-top: 24px;
-  padding-bottom: 23px; */
 
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color-primary);
 }
 
 .logo-footer {
@@ -125,33 +131,11 @@ address {
   text-decoration: none;
 }
 
-.logo-web {
-  color: var(--accent-color);
-}
-
-.logo-studio {
-  color: var(--title-text-color-primary);
-}
-
 .logo-studio-footer {
   color: var(--primary-white-color);
 }
 
 /* Навигация */
-
-.item {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color: var(--title-text-color-primary);
-  text-decoration: none;
-}
-
-.item:hover,
-.item:focus {
-  color: var(--accent-color);
-}
 
 .nav-list {
   list-style: none;
@@ -165,6 +149,20 @@ address {
 
 .nav-list-item:last-child {
   margin-right: 0;
+}
+
+.item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color-primary);
+  text-decoration: none;
+}
+
+.item:hover,
+.item:focus {
+  color: var(--accent-color);
 }
 
 /* Адресс INDEX и PORTFOLIO */
@@ -185,7 +183,6 @@ address {
 }
 
 .adress-header {
-  text-decoration: none;
   color: var(--title-text-color-secondary);
 
   display: block;
@@ -197,11 +194,6 @@ address {
 .adress-header:focus {
   color: var(--accent-color);
 }
-
-/* .adress-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
-} */
 
 .adress-footer {
   color: var(--primary-white-color);
@@ -230,7 +222,7 @@ address {
   text-transform: uppercase;
 
   padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   width: 696px;
 
@@ -241,8 +233,7 @@ address {
 .button-primary {
   display: inline-block;
 
-  width: 200px;
-  height: 50px;
+  min-width: 200px;
 
   margin-bottom: 200px;
 
@@ -255,12 +246,6 @@ address {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
-/* .button-primary:hover,
-.button-primary:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-} */
 
 /* Main PORTFOLIO */
 
@@ -337,6 +322,27 @@ address {
 
 .list {
   list-style: none;
+  display: flex;
+}
+
+.list-item {
+  margin-right: 30px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.list-margin {
+  margin-right: 10px;
+}
+
+.list-margin:last-child {
+  margin-right: 0;
+}
+
+.list.clients {
+  justify-content: space-between;
 }
 
 .advantage-words {
@@ -350,13 +356,13 @@ address {
   font-size: 16px;
   line-height: 1.19;
 
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .speciality {
   color: var(--title-text-color-secondary);
 
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .social-links {
@@ -367,11 +373,6 @@ address {
 .social-links:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
-
-.our-team-section {
-  background-color: var(--secondary-gray-color);
-  margin-bottom: 94px;
 }
 
 /* Клиенты INDEX */
