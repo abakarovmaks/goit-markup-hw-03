@@ -25,10 +25,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-footer {
-  background-color: var(--footer-color);
-}
-
 button {
   border: none;
   outline: none;
@@ -75,6 +71,7 @@ address {
 .container.footer {
   display: flex;
   align-items: center;
+  background-color: var(--footer-color);
 }
 
 .our-team {
