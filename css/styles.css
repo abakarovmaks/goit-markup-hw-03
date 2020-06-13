@@ -64,19 +64,21 @@ address {
 }
 
 .container {
-  width: 1200px;
-
   padding-left: 15px;
   padding-right: 15px;
+
+  width: 1200px;
 
   outline: 2px solid tomato;
 }
 
 .container.header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   margin-bottom: 93px;
+}
+
+.nav-links.main {
+  display: flex;
+  align-items: center;
 }
 
 .container.main {
@@ -100,6 +102,11 @@ address {
 
 /* Лого INDEX и PORTFOLIO*/
 .logo {
+  display: block;
+  margin-right: 85px;
+  /* padding-top: 24px;
+  padding-bottom: 23px; */
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -108,14 +115,14 @@ address {
 }
 
 .logo-footer {
+  padding-top: 45px;
+  padding-bottom: 8px;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
   text-decoration: none;
-
-  padding-top: 45px;
-  padding-bottom: 8px;
 }
 
 .logo-web {
@@ -133,6 +140,10 @@ address {
 /* Навигация */
 
 .item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color-primary);
   text-decoration: none;
 }
@@ -144,17 +155,42 @@ address {
 
 .nav-list {
   list-style: none;
+
+  display: flex;
+}
+
+.nav-list-item {
+  margin-right: 50px;
+}
+
+.nav-list-item:last-child {
+  margin-right: 0;
 }
 
 /* Адресс INDEX и PORTFOLIO */
 
 .adress {
   list-style: none;
+
+  display: flex;
+  margin-left: auto;
+}
+
+.adress-item {
+  margin-right: 30px;
+}
+
+.adress-item:last-child {
+  margin-right: 0;
 }
 
 .adress-header {
   text-decoration: none;
   color: var(--title-text-color-secondary);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .adress-header:hover,
@@ -296,7 +332,7 @@ address {
 }
 
 .advantage-bottom-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .list {
