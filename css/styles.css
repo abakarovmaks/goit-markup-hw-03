@@ -72,6 +72,11 @@ address {
   outline: 2px solid tomato;
 }
 
+.container.footer {
+  display: flex;
+  align-items: center;
+}
+
 .our-team {
   background-color: var(--secondary-gray-color);
 }
@@ -125,8 +130,7 @@ address {
 }
 
 .logo-footer {
-  padding-top: 45px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 
   font-family: Raleway;
   font-weight: 700;
@@ -355,19 +359,17 @@ address {
   display: flex;
 }
 
+.list-services {
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+}
+
 .list-item {
   margin-right: 30px;
 }
 
 .list-item:last-child {
-  margin-right: 0;
-}
-
-.list-margin {
-  margin-right: 10px;
-}
-
-.list-margin:last-child {
   margin-right: 0;
 }
 
@@ -419,6 +421,12 @@ address {
 }
 
 /* Футер INDEX и PORTFOLIO */
+
+.footer-div {
+  margin-right: 69px;
+  margin-bottom: 8px;
+  padding-top: 45px;
+}
 
 .connect {
   color: var(--primary-white-color);
