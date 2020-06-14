@@ -66,6 +66,7 @@ address {
   width: 1200px;
 
   outline: 2px solid tomato;
+  margin: auto;
 }
 
 .container.footer {
@@ -79,6 +80,7 @@ address {
 }
 
 .container.header {
+  margin: auto;
   margin-bottom: 93px;
 }
 
@@ -89,9 +91,11 @@ address {
 
 .container.main {
   height: 600px;
-  margin-bottom: 94px;
 
   text-align: center;
+
+  margin: auto;
+  margin-bottom: 94px;
 }
 
 .container.margin {
