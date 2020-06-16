@@ -57,6 +57,7 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin: auto;
 }
 
 .container {
@@ -67,40 +68,31 @@ address {
 
   outline: 2px solid tomato;
   margin: auto;
+
+  text-align: center;
 }
 
-.container.footer {
+.footer {
+  background-color: var(--footer-color);
+}
+
+.container-footer {
   display: flex;
   align-items: center;
-  background-color: var(--footer-color);
 }
 
 .our-team {
   background-color: var(--secondary-gray-color);
 }
 
-.container.header {
-  margin: auto;
-  margin-bottom: 93px;
+.margin-item {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-}
-
-.container.main {
-  height: 600px;
-
-  text-align: center;
-
-  margin: auto;
-  margin-bottom: 94px;
-}
-
-.container.margin {
-  margin-bottom: 94px;
-  text-align: center;
 }
 
 .services {
@@ -110,10 +102,14 @@ address {
 .service-div {
   display: flex;
   justify-content: center;
+
+  padding-top: 93px;
+  padding-bottom: 50px;
 }
 
-.margin-item {
-  margin-bottom: 50px;
+.padding-item {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 /* Лого INDEX и PORTFOLIO*/
@@ -136,7 +132,7 @@ address {
 }
 
 .logo-footer {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 
   font-family: Raleway;
   font-weight: 700;
@@ -211,23 +207,30 @@ address {
 
 .adress-footer {
   color: var(--primary-white-color);
+  padding-bottom: 9px;
 }
 
 .footer-contacts {
-  display: block;
-
   font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
-
-  margin-bottom: 9px;
+  color: var(--primary-white-color);
 }
 
-.footer-contacts.second {
-  margin-bottom: 28px;
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
+}
+
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-padding {
+  padding-bottom: 28px;
+  list-style: none;
 }
 
 /* Main INDEX */
@@ -240,7 +243,7 @@ address {
   text-transform: uppercase;
 
   padding-top: 200px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 
   width: 696px;
 
@@ -299,8 +302,14 @@ address {
   margin-right: 0;
 }
 
-.projects {
+.list-projects {
+  list-style: none;
+  display: flex;
   flex-wrap: wrap;
+}
+
+.wrap-container {
+  padding-bottom: 94px;
 }
 
 .projects-item {
@@ -355,7 +364,6 @@ address {
 
 .advantage {
   color: var(--title-text-color-primary);
-  margin-bottom: 94px;
 }
 
 .advantage-upper-title {
@@ -369,24 +377,57 @@ address {
 .list {
   list-style: none;
   display: flex;
+
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-employment {
+  list-style: none;
+  display: flex;
+
+  padding-bottom: 94px;
+}
+
+.list-team {
+  list-style: none;
+  display: flex;
+
+  padding-bottom: 94px;
 }
 
 .list-services {
   list-style: none;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .list-item {
   margin-right: 30px;
+  background-color: #ffffff;
+}
+
+.list-team > .list-item {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .list-item:last-child {
   margin-right: 0;
 }
 
-.list.clients {
+.list-clients {
+  list-style: none;
+  display: flex;
   justify-content: space-between;
+
+  padding-bottom: 94px;
+}
+
+.list-workers {
+  list-style: none;
+  display: flex;
+
+  padding-bottom: 24px;
 }
 
 .advantage-words {
@@ -400,13 +441,14 @@ address {
   font-size: 16px;
   line-height: 1.19;
 
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .speciality {
   color: var(--title-text-color-secondary);
 
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .social-links {
@@ -434,10 +476,9 @@ address {
 
 /* Футер INDEX и PORTFOLIO */
 
-.footer-div {
-  margin-right: 69px;
-  margin-bottom: 8px;
-  padding-top: 45px;
+.container.bottom {
+  display: flex;
+  align-items: center;
 }
 
 .connect {
@@ -446,7 +487,24 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
 
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+}
+
+.footer-container-first {
+  padding-top: 45px;
+  padding-bottom: 28px;
+
+  margin-right: 69px;
+}
+
+.footer-container-second {
+  padding-top: 57px;
+  padding-bottom: 56px;
 }
 
 .social-links-footer {

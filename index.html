@@ -17,7 +17,7 @@
   <body>
     <!-- Шапка сайта -->
     <header class="nav">
-      <div class="container header">
+      <div class="container">
         <nav class="nav-links main">
           <a class="logo" href="./index.html">
             <span class="logo-web">Web</span>
@@ -49,9 +49,11 @@
 
     <main>
       <!-- Решения для бизнеса -->
-      <section class="container main">
-        <h1 class="main-title">эффективные решения для вашего бизнеса</h1>
-        <a class="button-primary" href="#">Заказать услугу</a>
+      <section>
+        <div class="container">
+          <h1 class="main-title">эффективные решения для вашего бизнеса</h1>
+          <a class="button-primary" href="#">Заказать услугу</a>
+        </div>
       </section>
       <!-- Преимущества -->
       <section class="advantage">
@@ -91,47 +93,49 @@
       </section>
 
       <!-- Чем мы занимаемся -->
-      <section class="container margin">
-        <h2 class="margin-item">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="list-item">
-            <a href="#"
-              ><img
-                src="./images/notebook1.jpg"
-                alt="Ноутбук"
-                width="370"
-                height="294"
-              />Десктопные приложения</a
-            >
-          </li>
-          <li class="list-item">
-            <a href="#"
-              ><img
-                src="./images/smartphone2.jpg"
-                alt="Смартфон"
-                width="370"
-                height="294"
-              />Мобильные приложения</a
-            >
-          </li>
-          <li class="list-item">
-            <a href="#"
-              ><img
-                src="./images/screen3.jpg"
-                alt="Компьютер"
-                width="370"
-                height="294"
-              />Дизайнерские решения</a
-            >
-          </li>
-        </ul>
+      <section>
+        <div class="container">
+          <h2 class="margin-item">Чем мы занимаемся</h2>
+          <ul class="list-employment">
+            <li class="list-item">
+              <a href="#"
+                ><img
+                  src="./images/notebook1.jpg"
+                  alt="Ноутбук"
+                  width="370"
+                  height="294"
+                />Десктопные приложения</a
+              >
+            </li>
+            <li class="list-item">
+              <a href="#"
+                ><img
+                  src="./images/smartphone2.jpg"
+                  alt="Смартфон"
+                  width="370"
+                  height="294"
+                />Мобильные приложения</a
+              >
+            </li>
+            <li class="list-item">
+              <a href="#"
+                ><img
+                  src="./images/screen3.jpg"
+                  alt="Компьютер"
+                  width="370"
+                  height="294"
+                />Дизайнерские решения</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Наша команда -->
-      <section class="container margin">
-        <div class="our-team">
+      <section class="our-team">
+        <div class="container">
           <h3 class="margin-item">Наша команда</h3>
-          <ul class="list" lang="en">
+          <ul class="list-team" lang="en">
             <li class="list-item">
               <img
                 src="./images/johnsmith1.jpg"
@@ -141,7 +145,7 @@
               />
               <p class="workers" lang="ru">Николай Кучеренко</p>
               <p class="speciality">Product Designer</p>
-              <ul class="list">
+              <ul class="list-workers">
                 <li>
                   <a class="social-links" href="#" aria-label="Instagram"
                     >Instagram</a
@@ -173,7 +177,7 @@
               />
               <p class="workers" lang="ru">Ольга Иванова</p>
               <p class="speciality">Frontend Developer</p>
-              <ul class="list">
+              <ul class="list-workers">
                 <li>
                   <a class="social-links" href="#" aria-label="Instagram"
                     >Instagram</a
@@ -205,7 +209,7 @@
               />
               <p class="workers" lang="ru">Андрей Шевченко</p>
               <p class="speciality">Marketing</p>
-              <ul class="list">
+              <ul class="list-workers">
                 <li>
                   <a class="social-links" href="#" aria-label="Instagram"
                     >Instagram</a
@@ -237,7 +241,7 @@
               />
               <p class="workers" lang="ru">Иван Николаев</p>
               <p class="speciality">UI Designer</p>
-              <ul class="list">
+              <ul class="list-workers">
                 <li>
                   <a class="social-links" href="#" aria-label="Instagram"
                     >Instagram</a
@@ -265,35 +269,37 @@
       </section>
 
       <!-- Постоянные клиенты -->
-      <section class="container margin">
-        <h3 class="margin-item">Постоянные клиенты</h3>
-        <ul class="list clients" lang="en">
-          <li class="list-item">
-            <a class="customers" href="#">Ya & Co</a>
-          </li>
-          <li class="list-item">
-            <a class="customers" href="#">Company Tegline here</a>
-          </li>
-          <li class="list-item">
-            <a class="customers" href="#">Company</a>
-          </li>
-          <li class="list-item">
-            <a class="customers" href="#">Foster Peters</a>
-          </li>
-          <li class="list-item">
-            <a class="customers" href="#">Brand</a>
-          </li>
-          <li class="list-item">
-            <a class="customers" href="#">Company Tag line</a>
-          </li>
-        </ul>
+      <section>
+        <div class="container">
+          <h3 class="padding-item">Постоянные клиенты</h3>
+          <ul class="list-clients" lang="en">
+            <li class="list-item">
+              <a class="customers" href="#">Ya & Co</a>
+            </li>
+            <li class="list-item">
+              <a class="customers" href="#">Company Tegline here</a>
+            </li>
+            <li class="list-item">
+              <a class="customers" href="#">Company</a>
+            </li>
+            <li class="list-item">
+              <a class="customers" href="#">Foster Peters</a>
+            </li>
+            <li class="list-item">
+              <a class="customers" href="#">Brand</a>
+            </li>
+            <li class="list-item">
+              <a class="customers" href="#">Company Tag line</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Футер -->
-    <footer>
-      <div class="container footer">
-        <div class="footer-div">
+    <footer class="footer">
+      <div class="container bottom">
+        <div class="footer-container-first">
           <p class="logo-footer">
             <span class="logo-web">Web</span>
             <span class="logo-studio-footer">Studio</span>
@@ -301,19 +307,19 @@
           <address class="adress-footer">
             <span class="footer-contacts">г. Киев, пр-т Леси Украинки, 26</span>
           </address>
-          <ul>
-            <li class="footer-contacts first">
+          <ul class="footer-padding">
+            <li class="footer-mail">
               <a href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li class="footer-contacts second">
+            <li class="footer-tel">
               <a href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
         </div>
 
-        <div>
+        <div class="footer-container-second">
           <p class="connect"><b>присоединяйтесь</b></p>
-          <ul class="list">
+          <ul class="footer-list">
             <li>
               <a class="social-links-footer" href="#" aria-label="Instagram"
                 >Instagram</a
