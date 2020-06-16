@@ -68,7 +68,12 @@ address {
 
   outline: 2px solid tomato;
   margin: auto;
+}
 
+.container.main,
+.container.apps,
+.container.team,
+.container.clients {
   text-align: center;
 }
 
