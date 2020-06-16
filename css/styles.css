@@ -51,6 +51,10 @@ address {
   padding: 0;
 }
 
+footer {
+  background-color: var(--footer-color);
+}
+
 /* Хэдер INDEX и PORTFOLIO*/
 .nav {
   font-weight: 500;
@@ -75,10 +79,6 @@ address {
 .container.team,
 .container.clients {
   text-align: center;
-}
-
-.footer {
-  background-color: var(--footer-color);
 }
 
 .container-footer {
@@ -481,9 +481,11 @@ address {
 
 /* Футер INDEX и PORTFOLIO */
 
-.container.bottom {
+footer > .container {
   display: flex;
   align-items: center;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .connect {
@@ -520,4 +522,16 @@ address {
 .socila-links-footer:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+
+  font-size: 12px;
+  line-height: 2;
+
+  padding-top: 18px;
+  padding-bottom: 21px;
+
+  text-align: center;
 }
