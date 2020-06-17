@@ -93,6 +93,9 @@ footer {
 .margin-item {
   padding-top: 94px;
   padding-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 .nav-links {
@@ -115,6 +118,9 @@ footer {
 .padding-item {
   padding-top: 94px;
   padding-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* Лого INDEX и PORTFOLIO*/
